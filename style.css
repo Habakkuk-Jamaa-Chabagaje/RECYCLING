@@ -414,5 +414,57 @@ option{
     }
     
     }
+     @media screen and (min-width:0px) and (max-width:380px) {
+      .win{ background-color: blueviolet;
+        color: white;
+        text-align: center;
+        border-start-start-radius: 100rem;
+        border-start-end-radius: 100rem;
+        justify-content: center;
+        width: 25vw;
+        height:5vh;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-top: 50px;
+        font-weight: bolder;
+
+
+      }
+     .read{
+       padding: 1px;
+       
+
+     }
+     
+     .share{
+        color: white; 
+        text-align: right;
+        padding-right: 5px;
+        padding-top: 5px;
+        margin-top: 10px;
+        margin-left: 60vw;
+    
+    }
+    .button{
+        
+        margin-left:auto;
+        margin-right: auto;
+        display: flex;
+        width: 15vw;
+        height: 15vh;
+    }
+    
+    .name,.address, .company,.email,.postal{
+        
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 30vw;
+    
+    }
+    
+
+  }
     
 
